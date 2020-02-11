@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.transcripts.css
+		
+	Description:
+		Contains CSS styles for Transcripts View.
+		
+	Date:
+		26.10.2014
+*/
+
+#transcripts-content-wrapper {
+    font-size: 14px;
+    color: #565656;
+    padding-left: 10px;
+}
+
+#transcripts-content-wrapper a {
+    text-decoration: none;
+    color: #0077dd;
+}

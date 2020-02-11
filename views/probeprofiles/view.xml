@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Profile</title>
+	<description>Displays the profile of the probe in each timecourse microarray experiment</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="1" />
+	<wrapperID>view-probeprofiles</wrapperID>
+	<guid>{5E2AF2D9-03F2-45B8-9FA9-A44F15D421B5}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.probeprofiles.css</dependency>
+		<dependency type="javascript">view.probeprofiles.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="probe" />
+	</seqtypes>
+	<privilege>PRIVILEGE_COLLABORATOR</privilege>
+</view>

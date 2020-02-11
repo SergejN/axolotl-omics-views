@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Annotation</title>
+	<description>Displays the contig annotation</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-annotation</wrapperID>
+	<guid>{03B65965-45DE-4934-A11D-3644580360E5}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.annotation.css</dependency>
+		<dependency type="javascript">view.annotation.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>PRIVILEGE_REGISTERED</privilege>
+</view>

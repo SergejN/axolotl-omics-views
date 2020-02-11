@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.ish.css
+		
+	Description:
+		Contains CSS styles for In-Situ View.
+		
+	Date:
+		30.05.2013
+*/
+
+#ish-content-wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}

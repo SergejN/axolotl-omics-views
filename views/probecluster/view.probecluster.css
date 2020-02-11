@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.probecluster.css
+		
+	Description:
+		Contains CSS styles for Probe Cluster View.
+		
+	Date:
+		18.09.2014
+*/
+
+.probecluster-invisible {
+    display: none;
+}
+
+.probecluster-plotslist  {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.probecluster-plotslist h1 {
+    font-size: 20px;
+    color: #6b68cc;
+}
+
+.probecluster-plotslist h2 {
+    font-style: italic;
+    font-size: 14px;
+    color: #454545;
+}
+
+.probecluster-plotslist h3 {
+    font-size: 14px;
+    color: #454545;
+}
+
+.probecluster-plotslist h1,
+.probecluster-plotslist h2,
+.probecluster-plotslist h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.probecluster-plot-wrapper {
+    width: 820px;
+    height: 270px;
+    padding: 10px;
+}
+
+.probecluster-plot {
+    width: 100%;
+    height: 100%;
+}

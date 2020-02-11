@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/*
+    File:
+        blast.css
+            
+    Description:
+        Contains general Datasets CSS styles.
+            
+    Date:
+        20.05.2014
+*/
+
+#datasets-content-wrapper {
+    padding: 5px;
+}
+
+#datasets-plots {
+    width: 80%;
+    float: left;
+    clear: both;
+    padding: 10px 0 0 15px;;
+}
+
+#datasets-plots .datasets-exp {
+    padding: 5px 5px 5px 25px;
+    clear: both;
+}
+
+#datasets-plots .datasets-exp h3 {
+    margin: 0 0 0 -25px;
+    padding: 0 0 10px 0;
+    font-size: 18px;
+    color: #ababab;
+    font-weight: normal;
+    font-family: 'Roboto Condensed',sans-serif;
+    text-align: left;
+}
+
+#datasets-plots .datasets-exp .expr-item {
+    float: left;
+    width: 25px;
+    margin: 20px 2px 20px 2px;
+}
+
+#datasets-plots .datasets-exp .expr-item .dataset-name {
+    font-size: 12px;
+    color: #565656;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    padding: 5px;
+}
+
+#datasets-plots .datasets-exp .expr-item .fpkm {
+    height: 25px;
+    border: 1px solid #acacac;
+}
+
+#datasets-legend {
+    float: left;
+    padding-top: 25px;
+}
+
+#datasets-legend h3 {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: #565656;
+}
+
+#datasets-legend .line {
+    clear: both;
+}
+
+#datasets-legend .expr-item {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 5px 10px 5px 5px;
+    border: 1px solid #acacac;
+}
+
+#datasets-legend .expr-title {
+    float: left;
+    color: #676767;
+    font-size: 12px;
+    padding-top: 5px;
+}

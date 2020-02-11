@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Location</title>
+	<description>Displays the location of the corresponding well on the master plate</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-liblocation</wrapperID>
+	<guid>{720819F2-4111-4BB1-B2BE-8553CAE24DB8}</guid>
+	<color>red</color>
+	<dependencies>
+		<dependency type="stylesheet">view.liblocation.css</dependency>
+		<dependency type="javascript">view.liblocation.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="libseq" />
+	</seqtypes>
+	<privilege>PRIVILEGE_REGISTERED</privilege>
+</view>

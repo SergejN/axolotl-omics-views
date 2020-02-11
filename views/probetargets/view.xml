@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Targets</title>
+	<description>Displays the location of the microarray probe within each target</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="1" />
+	<wrapperID>view-probetargets</wrapperID>
+	<guid>{F7DEDE77-6DDD-4F02-A4BB-A5A24084D5E7}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.probetargets.css</dependency>
+		<dependency type="javascript">view.probetargets.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="probe" />
+	</seqtypes>
+	<privilege>PRIVILEGE_COLLABORATOR</privilege>
+</view>

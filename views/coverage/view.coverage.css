@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.coverage.css
+		
+	Description:
+		Contains CSS styles for Coverage View.
+		
+	Date:
+		21.03.2013
+*/
+
+#coverage-content-wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#coverage-dslist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-area-block > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-area-block > ul > li {
+	padding-left: 10px;
+}
+
+.coverage-toggleall {
+	color: #0000ff;
+	font-size: 12px;
+	cursor: pointer;
+	padding-top: 5px;
+	margin-left: 15px;
+}
+
+#coverage-table {
+	clear: both;
+	padding-top: 20px;
+	font-size: 14px;
+	text-align: left;
+}
+
+#coverage-table th {
+	color: #444;
+	padding-bottom: 10px;
+}
+
+#coverage-table td {
+	padding-bottom: 10px;
+}
+
+#coverage-table thead tr th:nth-child(2) {
+	text-align: center;
+}
+
+#coverage-table thead tr th:nth-child(3),
+#coverage-table thead tr th:nth-child(4),
+#coverage-table tr td:nth-child(3),
+#coverage-table tr td:nth-child(4) {
+	text-align: right;
+}
+
+.toolbar {
+	clear: both;
+	padding-top: 5px;
+}
+
+.coverage-popup {
+	width: 100%;
+	height: 800px;
+	text-align: center !important;
+}
+
+.coverage-popup iframe {
+	width: 90%;
+	height: 780px;
+	margin: 10px;
+	border: none;
+	background-color: white;
+}
+
+.coverage-plot-wrapper {
+	width: 670px;
+	height: 220px;
+	padding: 10px;
+	transition: box-shadow 0.5s ease 0s;
+	cursor: pointer;
+}
+
+.coverage-plot-wrapper:hover {
+    transition: box-shadow 0.5s ease 0s;
+    box-shadow: 0px 0px 10px rgb(148, 217, 255);
+    border-color: rgb(148, 217, 255);
+}
+
+.coverage-plot {
+	width: 100%;
+	height: 100%;
+}
+
+#coverage-content-wrapper .legendLabel {
+	width: 170px;
+	color: black;
+}
+
+#coverage-content-wrapper .legendColorBox {
+	display: none;
+}
+
+#coverage-content-wrapper .coverage-invisible {
+	display: none;
+}
+
+.coverage-plot-placeholder {
+	display: block;
+	width: 650px;
+	height: 200px;
+	background: url(images/loading.svg);
+}

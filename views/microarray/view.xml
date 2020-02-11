@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Microarray data</title>
+	<description>Displays the static microarray data</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-microarraydata</wrapperID>
+	<guid>{5CAAA26E-5D2D-4CDC-891F-26024CBD6D2F}</guid>
+	<color>blue</color>
+	<dependencies>
+		<dependency type="stylesheet">view.microarraydata.css</dependency>
+		<dependency type="javascript">view.microarraydata.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+		<type name="libseq" />
+	</seqtypes>
+	<privilege>0</privilege>
+</view>

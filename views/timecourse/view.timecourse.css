@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.timecourse.css
+		
+	Description:
+		Contains CSS styles for TimeCourse View.
+		
+	Date:
+		28.05.2013
+*/
+
+#timecourse-content-wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#timecourse-explist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-area-block > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-area-block > ul > li {
+	padding-left: 10px;
+}
+
+.timecourse-toggleall {
+	color: #0000ff;
+	font-size: 12px;
+	cursor: pointer;
+	padding-top: 5px;
+	margin-left: 15px;
+}
+
+#timecourse-plotarea {
+	margin-top: 5px;
+}
+
+.timecourse-plotslist {
+	list-style: none;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.timecourse-plotslist li {
+	padding-bottom: 15px;
+}
+
+.timecourse-plotslist li:last-child {
+	padding-bottom: 0;
+}
+
+.timecourse-plotslist h1,h2,h3,h4 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.timecourse-plotslist h1 {
+	font-size: 20px;
+	color: #6b68cc;
+}
+
+.timecourse-plotslist h2,
+.timecourse-plotslist h3 {
+	font-size: 14px;
+	color: #454545;
+}
+
+.timecourse-plotslist h2 {
+	font-style: italic;
+}
+
+.timecourse-invisible {
+	display: none;
+}
+
+.timecourse-expplotblock {
+	margin-top: 10px;
+}
+
+.timecourse-expplotblock h4 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: #6b68AA;
+	font-size: 12px;
+}
+
+.timecourse-plot-wrapper {
+	width: 820px;
+	height: 270px;
+	padding: 10px;
+}
+
+.timecourse-plot {
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.versions.css
+		
+	Description:
+		Contains CSS styles for Versions View.
+		
+	Date:
+		26.11.2014
+*/
+
+#versions-content-wrapper {
+	font-size: 14px;
+	color: #565656;
+	padding-left: 10px;
+}
+
+#versions-alnwrapper {
+	display: block;
+	padding-top: 15px;
+}
+
+#versions-alnwrapper h3 {
+	margin: 0;
+	padding: 5px 0 5px 0;
+	font-size: 16px;
+	color: #6b68cc;
+}
+
+#versions-alnwrapper.hidden {
+	display: none;
+}
+
+#versions-toplink {
+	cursor: pointer;
+	color: #0077dd;
+	font-size: 12px;
+	text-align: right;
+	margin-right: 30px;
+}

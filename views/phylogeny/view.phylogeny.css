@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.phylogeny.css
+		
+	Description:
+		Contains CSS styles for Microarray Probe View.
+		
+	Date:
+		18.06.2015
+*/
+
+#phylogeny-content-wrapper {
+	font-size: 14px;
+	color: #565656;
+	padding-left: 10px;
+}
+
+#phylogeny-alnwrapper {
+	padding-top: 15px;
+}
+
+#phylogeny-alnwrapper.hidden {
+	display: none;
+}

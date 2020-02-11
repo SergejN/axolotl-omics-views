@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Microarray probes</title>
+	<description>Displays the mapping of microarray probes</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="1" />
+	<wrapperID>view-microarrayprobes</wrapperID>
+	<guid>{D5A0D089-6265-4310-A17F-8B9EB3A6AB4C}</guid>
+	<color>darkcyan</color>
+	<dependencies>
+		<dependency type="stylesheet">view.microarrayprobes.css</dependency>
+		<dependency type="javascript">view.microarrayprobes.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+		<type name="libseq" />
+	</seqtypes>
+	<privilege>0</privilege>
+</view>

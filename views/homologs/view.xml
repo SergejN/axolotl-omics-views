@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Homologs</title>
+	<description>Displays the details about the homologous RefSeq sequences</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="2" minor="2" />
+	<wrapperID>view-homologs</wrapperID>
+	<guid>{215CBEC8-5272-46F4-B08D-6CAA69C16CB6}</guid>
+	<color>yellow</color>
+	<dependencies>
+		<dependency type="stylesheet">view.homologs.css</dependency>
+		<dependency type="javascript">view.homologs.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>PRIVILEGE_REGISTERED</privilege>
+</view>

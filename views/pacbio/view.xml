@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>PacBio</title>
+	<description>Displays the alignment of error-corrected genomic PacBio reads</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="1" />
+	<wrapperID>view-pacbio</wrapperID>
+	<guid>{CE01B982-DF25-4EEA-B8A2-FAD5B1CEBDF9}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.pacbio.css</dependency>
+		<dependency type="javascript">view.pacbio.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>PRIVILEGE_INTERNAL</privilege>
+</view>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>tSNE</title>
+	<description>Displays a tSNE plot with the expression of the transcript within individual cells</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="1" />
+	<wrapperID>view-tsne</wrapperID>
+	<guid>{95503D0E-D563-45FD-A291-83F62EC5E167}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.tsne.css</dependency>
+		<dependency type="javascript">view.tsne.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>0</privilege>
+</view>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Paralogs</title>
+	<description>Displays the list of highly similar contigs from the same assembly</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-paralogs</wrapperID>
+	<guid>{B7D14DC2-9192-4542-A8A1-875920C02065}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.paralogs.css</dependency>
+		<dependency type="javascript">view.paralogs.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>PRIVILEGE_REGISTERED</privilege>
+</view>

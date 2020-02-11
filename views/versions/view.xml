@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Versions</title>
+	<description>Displays the list of highly similar contigs from another assemblies</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-versions</wrapperID>
+	<guid>{120BF376-7402-468D-9717-5CCCD15986A4}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.versions.css</dependency>
+		<dependency type="javascript">view.versions.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>PRIVILEGE_REGISTERED</privilege>
+</view>

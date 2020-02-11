@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Sequence</title>
+	<description>Displays the contig sequence, the longest ORF and the putative protein sequence</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-sequence</wrapperID>
+	<guid>{B437ADB8-5AA6-40CA-829B-C73799CE5C2D}</guid>
+	<color>green</color>
+	<menu>
+		<item name="Predict ORF">
+			<action method="predictORF" />
+		</item>
+		<item name="Reverse complement">
+			<action method="reverseComplement" />
+		</item>
+	</menu>
+	<pin action="pinSequence" />
+	<dependencies>
+		<dependency type="stylesheet">view.sequence.css</dependency>
+		<dependency type="javascript">view.sequence.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>PRIVILEGE_REGISTERED</privilege>
+</view>

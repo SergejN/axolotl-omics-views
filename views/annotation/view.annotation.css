@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.annotation.css
+		
+	Description:
+		Contains CSS styles for Annotation View.
+		
+	Date:
+		08.03.2013
+*/
+
+#annotation-details {
+    font-size: 14px;
+}
+
+#annotation-details td .spacer {
+    border-left: 1px solid rgb(221, 221, 221);
+    height: 75px;
+}
+
+#annotation-navbar {
+    list-style: none;
+    clear: both;
+    padding: 20px 0 5px 0;
+    margin: 0;
+}
+
+#annotation-navbar li {
+    float: left;
+    border-right: 1px dotted #000;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+#annotation-navbar li:first-child,
+#annotation-navbar li:last-child
+{
+    border-right: none;    
+}

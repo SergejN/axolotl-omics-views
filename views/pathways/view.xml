@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Pathways</title>
+	<description>Displays the list of pathways the gene participates in</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="1" />
+	<wrapperID>view-pathways</wrapperID>
+	<guid>{78AD81C8-433B-4C2C-8590-5D6E32977856}</guid>
+	<color>olive</color>
+	<dependencies>
+		<dependency type="stylesheet">view.pathways.css</dependency>
+		<dependency type="javascript">view.pathways.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>PRIVILEGE_COLLABORATOR</privilege>
+</view>

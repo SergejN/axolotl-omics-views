@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.liblocation.css
+		
+	Description:
+		Contains CSS styles for Library Location View.
+		
+	Date:
+		26.11.2014
+*/
+
+#liblocation-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#liblocation-wrapper .infoline {
+    clear: both;
+    font-size: 14px;
+}
+
+#liblocation-wrapper .infoline .linelabel {
+    float: left;
+    width: 120px;
+    color: #222;
+}
+
+#liblocation-wrapper .infoline .linevalue {
+    float: left;
+    color: #555;
+}

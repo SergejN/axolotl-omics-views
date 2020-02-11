@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Cluster</title>
+	<description>Displays the list of other probes with similar profiles</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="1" />
+	<wrapperID>view-probecluster</wrapperID>
+	<guid>{F9934781-3EB4-4149-883F-3964DF0FAB2F}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.probecluster.css</dependency>
+		<dependency type="javascript">view.probecluster.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="probe" />
+	</seqtypes>
+	<privilege>PRIVILEGE_ADMINISTRATOR</privilege>
+</view>

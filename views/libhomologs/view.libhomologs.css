@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.libhomologs.css
+		
+	Description:
+		Contains CSS styles for Library Homologs View.
+		
+	Date:
+		26.11.2014
+*/
+
+#libhomologs-wrapper {
+	font-size: 14px;
+	color: #565656;
+	padding-left: 10px;
+}
+
+#libhomologs-alnwrapper {
+	display: block;
+	padding-top: 15px;
+}
+
+#libhomologs-alnwrapper h3 {
+	margin: 0;
+	padding: 5px 0 5px 0;
+	font-size: 16px;
+	color: #6b68cc;
+}
+
+#libhomologs-alnwrapper.hidden {
+	display: none;
+}

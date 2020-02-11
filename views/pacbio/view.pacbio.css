@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.pacbio.css
+		
+	Description:
+		Contains CSS styles for PacBio View.
+		
+	Date:
+		14.09.2015
+*/
+
+#pacbio-content-wrapper {
+	font-size: 14px;
+	color: #565656;
+	padding-left: 10px;
+}
+
+#pacbio-tooltip {
+	color: #787878;
+	margin-bottom: 10px;
+}
+
+#pacbio-alnwrapper {
+	padding-top: 15px;
+}
+
+#pacbio-alnwrapper.hidden {
+	display: none;
+}

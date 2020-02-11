@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.microarraydata.css
+		
+	Description:
+		Contains CSS styles for MicroarrayData View.
+		
+	Date:
+		22.02.2018
+*/
+
+#microarraydata-content-wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.microarraydata-plotslist {
+	list-style: none;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.microarraydata-plotslist li:last-child {
+	padding-bottom: 0;
+}
+
+.microarraydata-plotslist h1,h2,h3,h4 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.microarraydata-plotslist h1 {
+	font-size: 20px;
+	color: #6b68cc;
+}
+
+.microarraydata-plotslist h2,
+.microarraydata-plotslist h3 {
+	font-size: 14px;
+	color: #454545;
+}
+
+.microarraydata-plotslist h2 {
+	font-style: italic;
+}
+
+.microarraydata-plotslist h4 {
+	color: #6b68AA;
+	font-size: 14px;
+}
+
+.microarraydata-invisible {
+	display: none;
+}
+
+.microarraydata-probe {
+	clear: both;
+	overflow: auto;
+	margin-top: 15px;
+}
+
+.microarraydata-groupcharts {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.microarraydata-groupcharts li {
+	float: left;
+	width: 440px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.microarraydata-groupcharts li:nth-child(2) {
+	margin-left: 10px;
+}
+
+.microarraydata-plot {
+	width: 100%;
+	height: 90%;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.homologs.css
+		
+	Description:
+		Contains CSS styles for Homologs View.
+		
+	Date:
+		11.02.2013
+*/
+
+#homologs-content-wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#homologs-alnwrapper {
+    padding-top: 15px;
+}
+
+#homologs-alnwrapper.hidden {
+    display: none;
+}
+
+.homology-sameframe {
+	background: linear-gradient(to bottom, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%) !important;
+}
+
+.homology-otherframe {
+	background: linear-gradient(to bottom, rgba(243,197,189,1) 0%, rgba(234,40,3,1) 64%, rgba(199,34,0,1) 100%) !important;
+}

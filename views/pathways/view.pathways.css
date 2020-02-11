@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.pathways.css
+		
+	Description:
+		Contains CSS styles for Pathways View.
+		
+	Date:
+		17.05.2013
+*/
+
+#pathways-list {
+    margin: 0;
+    padding: 5px 15px 0 15px;
+    list-style: none;
+}
+
+#pathways-list > li {
+    clear: both;
+    padding-bottom: 10px;
+}
+
+#pathways-list li .pathway-id {
+    width: 200px;
+    float: left;
+}
+
+#pathways-list li .pathway-id span {
+    color: #0077dd;
+    cursor: pointer;
+}
+
+#pathways-list li .pathway-name {
+    float: left;
+}
+
+.pathways-pane {
+    border-left: dotted 1px #898989;
+    padding: 10px;
+    clear: both;
+    overflow: auto;
+    margin-left: 15px;
+}
+
+.pathways-pane.hidden {
+    display: none;
+}
+
+.pathways-blocktitle {
+    color: #0A7AF2;
+    cursor: pointer;
+}
+
+.pathways-block {
+    padding: 5px 5px 5px 15px;
+}
+
+.pathways-block.hidden{
+    display: none;
+}
+
+.pathways-block table {
+    border-spacing: 0;
+    width: 95%;
+    font-size: 14px;
+}
+
+.pathways-block table th {
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.pathways-block table th:nth-child(1) {
+    width: 15%;
+}
+
+.pathways-block table th:nth-child(2) {
+    width: 15%;
+}
+
+.pathways-block table th:nth-child(3) {
+    width: 25%;
+}
+
+.pathways-block table th:nth-child(4) {
+    width: 40%;
+}
+
+.pathways-block table th:nth-child(5) {
+    width: 5%;
+}
+
+.pathways-block table td {
+    padding: 2px;
+}
+
+.pathways-block table td:nth-child(5).busy {
+    content: '.';
+    background: url(../images/loading.gif) no-repeat;
+}
+
+.pathways-block table td:nth-child(5).success {
+    background: url(../images/success.png) no-repeat;
+    cursor: pointer;
+}
+
+.pathways-block table td:nth-child(5).failure {
+    background: url(../images/failure.png) no-repeat;
+    cursor: pointer;
+}
+
+.pathways-block .separator {
+    content: '.';
+    margin: 0 auto;
+    width: 400px;
+    border-bottom: 1px dotted #565656;
+    padding: 10px 0 10px 0;
+}
+
+#pathways-homologs-list {
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 235, 235)) repeat scroll 0% 0% transparent;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 30px;
+    width: 400px;
+}
+
+#pathways-homologs-list h3 {
+    padding-bottom: 15px;
+    color: #454545;
+}
+
+#pathways-homologs-list table {
+    border-spacing: 0;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#pathways-homologs-list table th {
+    color: #454545;
+    padding-bottom: 10px;
+}
+
+#pathways-homologs-list table td {
+    width: 150px;
+}
+
+#pathways-homologs-list table td a {
+    text-decoration: none;
+    color: #0077dd;
+}

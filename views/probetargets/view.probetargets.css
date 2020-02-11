@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.probetargets.css
+		
+	Description:
+		Contains CSS styles for ProbeTargets View.
+		
+	Date:
+		18.09.2014
+*/
+
+#probetargets-content-wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#probetargets-content-wrapper .itemlabel a {
+	text-decoration: none;
+	color: #03F;
+	font-size: 14px;
+}
+
+#probetargets-content-wrapper .list > ul li ul li {
+	padding: 2px 0 0 0;
+}
+
+#probetargets-content-wrapper .label {
+	font-size: 12px;
+	color: #444;
+	margin: 0 10px 0 15px;
+}

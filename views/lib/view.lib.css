@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.lib.css
+		
+	Description:
+		Contains CSS styles for library View.
+		
+	Date:
+		09.08.2013
+*/
+
+#lib-content-wrapper {
+	font-size: 14px;
+	color: #565656;
+	padding-left: 10px;
+}
+
+#lib-tooltip {
+	color: #787878;
+	margin-bottom: 10px;
+}
+
+#lib-alnwrapper {
+	padding-top: 15px;
+}
+
+#lib-alnwrapper.hidden {
+	display: none;
+}

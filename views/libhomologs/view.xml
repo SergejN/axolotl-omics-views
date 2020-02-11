@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Homologs</title>
+	<description>Displays the list and the mapping of the homologous transcripts</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-libhomologs</wrapperID>
+	<guid>{8AAF5549-1A18-4305-97EC-858A113EAFF3}</guid>
+	<color>yellow</color>
+	<dependencies>
+		<dependency type="stylesheet">view.libhomologs.css</dependency>
+		<dependency type="javascript">view.libhomologs.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="libseq" />
+	</seqtypes>
+	<privilege>PRIVILEGE_REGISTERED</privilege>
+</view>

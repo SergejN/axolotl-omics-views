@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Coverage</title>
+	<description>Displays the mapping of the Illumina reads to the sequence</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-coverage</wrapperID>
+	<guid>{C2D938C3-E81F-45D0-87A3-54614E118943}</guid>
+	<color>orange</color>
+	<dependencies>
+		<dependency type="stylesheet">view.coverage.css</dependency>
+		<dependency type="javascript">view.coverage.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+		<type name="libseq" />
+	</seqtypes>
+	<privilege>PRIVILEGE_COLLABORATOR</privilege>
+</view>

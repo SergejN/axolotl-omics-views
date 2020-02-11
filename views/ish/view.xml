@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>In-situ</title>
+	<description><![CDATA[Displays the <i>in-situ</i> hybridization results]]></description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-ish</wrapperID>
+	<guid>{1C2CE0A8-3817-486F-85E6-C1269F32419E}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.ish.css</dependency>
+		<dependency type="javascript">view.ish.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+		<type name="libseq" />
+	</seqtypes>
+	<privilege>PRIVILEGE_INTERNAL</privilege>
+</view>

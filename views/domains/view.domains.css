@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.domains.css
+		
+	Description:
+		Contains CSS styles for Domains View.
+		
+	Date:
+		05.06.2014
+*/
+
+#domains-content-wrapper {
+    font-size: 14px;
+    color: #565656;
+    padding-left: 10px;
+}
+
+.domains-probe.plus {
+    background: linear-gradient(to bottom, #7db9e8, #1e5799) repeat scroll 0% 0% transparent !important;
+}
+
+.domains-probe.minus {
+    background: linear-gradient(to bottom, #fac695, #ef8d31) repeat scroll 0% 0% transparent !important;
+}
+
+.domains-difframe {
+    background: linear-gradient(to bottom, #fefcea 0%,#f1da36 100%) repeat scroll 0% 0% transparent !important;
+}

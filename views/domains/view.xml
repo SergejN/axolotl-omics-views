@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Domains</title>
+	<description>Displays the location of protein domain within the sequence</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="1" />
+	<wrapperID>view-domains</wrapperID>
+	<guid>{EACFDA49-7849-4D30-9083-C4D4DC2EE43B}</guid>
+	<color>indigo</color>
+	<dependencies>
+		<dependency type="stylesheet">view.domains.css</dependency>
+		<dependency type="javascript">view.domains.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+		<type name="libseq" />
+	</seqtypes>
+	<privilege>PRIVILEGE_COLLABORATOR</privilege>
+</view>

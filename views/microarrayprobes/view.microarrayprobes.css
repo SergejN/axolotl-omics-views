@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.microarrayprobes.css
+		
+	Description:
+		Contains CSS styles for MicroarrayProbes View.
+		
+	Date:
+		13.04.2014
+*/
+
+#microarrayprobes-content-wrapper {
+	font-size: 14px;
+	color: #565656;
+	padding-left: 10px;
+}
+
+#microarrayprobes-alnwrapper {
+	padding-top: 15px;
+}
+
+#microarrayprobes-alnwrapper.hidden {
+	display: none;
+}

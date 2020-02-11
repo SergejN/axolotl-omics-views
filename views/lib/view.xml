@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Library</title>
+	<description>Displays homologous sequences from diverse sequence libraries</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-lib</wrapperID>
+	<guid>{5C856D3F-C07F-4DC8-86FB-CDCBD5FF28B6}</guid>
+	<color>red</color>
+	<dependencies>
+		<dependency type="stylesheet">view.lib.css</dependency>
+		<dependency type="javascript">view.lib.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>PRIVILEGE_INTERNAL</privilege>
+</view>

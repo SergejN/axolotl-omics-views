@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Publications</title>
+	<description>Displays the list of abstracts of related publications according to STRING database</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="5" />
+	<wrapperID>view-publications</wrapperID>
+	<guid>{96FA7EAC-FAFD-4105-A8FE-6DD7309181C0}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.publications.css</dependency>
+		<dependency type="javascript">view.publications.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="transcript" />
+	</seqtypes>
+	<privilege>PRIVILEGE_REGISTERED</privilege>
+</view>

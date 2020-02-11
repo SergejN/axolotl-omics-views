@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*
+	File:
+		view.secstr.css
+		
+	Description:
+		Contains CSS styles for Secondary Structure View.
+		
+	Date:
+		08.11.2014
+*/
+
+#secstr-wrapper {
+    font-size: 14px;
+    color: #565656;
+    padding-left: 10px;
+}
+
+#secstr-wrapper svg {
+    margin-left: 250px;
+}
+
+#secstr-copyright a{
+    text-decoration: none;
+    color: #03F;
+}

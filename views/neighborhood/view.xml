@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<title>Neighborhood</title>
+	<description>Displays the location of the transcript(s) within the PacBio read</description>
+	<author>Sergej Nowoshilow</author>
+	<version major="1" minor="1" />
+	<wrapperID>view-neighborhood</wrapperID>
+	<guid>{728CA366-657E-4C64-9C5F-2D0FA9FBFFC7}</guid>
+	<dependencies>
+		<dependency type="stylesheet">view.neighborhood.css</dependency>
+		<dependency type="javascript">view.neighborhood.js</dependency>
+	</dependencies>
+	<seqtypes>
+		<type name="read" />
+	</seqtypes>
+	<privilege>PRIVILEGE_INTERNAL</privilege>
+</view>
