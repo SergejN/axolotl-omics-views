@@ -1,0 +1,17 @@
+nginx:
+    build: ./nginx
+    links:
+    - web:web
+    - api:api
+    ports:
+    - "80:80"
+   
+web:
+    build: ./web
+    ports:
+    - "8080"
+   
+api:
+    build: ./api
+    ports:
+    - "8080"
