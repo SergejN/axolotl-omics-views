@@ -1,17 +1,14 @@
-nginx:
-    build: ./nginx
+apache:
+    build: ./apache
     links:
-    - web:web
-    - api:api
+        - api
     ports:
-    - "80:80"
-   
-web:
-    build: ./web
-    ports:
-    - "8080"
-   
+        - "80:80"
+    volumes:
+        - "../code:/usr/local/apache2/cgi-bin/"
+
 api:
     build: ./api
     ports:
-    - "8080"
+        - "8080:80"
+

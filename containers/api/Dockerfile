@@ -1,6 +1,6 @@
 FROM    nginx
 
-ADD     --chown=100:101 ./app.conf /etc/nginx/conf.d/app.conf 
+ADD     --chown=100:101 ./app.conf /etc/nginx/conf.d/default.conf 
 
 LABEL   author="Sergej Nowoshilow"
 LABEL   maintainer="Sergej Nowoshilow"
