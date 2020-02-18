@@ -1,14 +1,13 @@
-apache:
-    build: ./apache
+web-server:
+    build: ./web-server
     links:
-        - api
+        - api-proxy
     ports:
         - "80:80"
     volumes:
-        - "../code:/usr/local/apache2/cgi-bin/"
+        - "./web-server/engine/:/usr/local/apache2/cgi-bin/"
 
-api:
-    build: ./api
+api-proxy:
+    build: ./api-proxy
     ports:
-        - "8080:80"
-
+        - "1234:80"
